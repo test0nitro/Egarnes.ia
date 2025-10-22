@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Tropical color palette inspired by Fernando de Noronha */
+    --background: 43 60% 96%;
+    --foreground: 194 70% 20%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 194 70% 20%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 194 70% 20%;
+
+    /* Turquoise ocean - primary color */
+    --primary: 174 58% 51%;
+    --primary-foreground: 0 0% 100%;
+
+    /* Sandy beige - secondary color */
+    --secondary: 43 60% 80%;
+    --secondary-foreground: 194 70% 25%;
+
+    --muted: 43 40% 90%;
+    --muted-foreground: 194 30% 45%;
+
+    /* Coral accent */
+    --accent: 12 88% 69%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 43 40% 85%;
+    --input: 43 40% 90%;
+    --ring: 174 58% 51%;
+
+    --radius: 1rem;
+    
+    /* Custom tropical gradients */
+    --gradient-ocean: linear-gradient(135deg, hsl(194 70% 45%), hsl(174 58% 51%));
+    --gradient-sunset: linear-gradient(135deg, hsl(12 88% 69%), hsl(48 100% 67%));
+    --gradient-sand: linear-gradient(180deg, hsl(43 60% 92%), hsl(43 60% 80%));
+    
+    /* Shadows with tropical warmth */
+    --shadow-soft: 0 4px 12px hsla(174, 58%, 51%, 0.15);
+    --shadow-medium: 0 8px 24px hsla(174, 58%, 51%, 0.2);
+    
+    /* Smooth transitions */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    /* Dark tropical night theme */
+    --background: 194 70% 8%;
+    --foreground: 43 60% 95%;
+
+    --card: 194 70% 12%;
+    --card-foreground: 43 60% 95%;
+
+    --popover: 194 70% 12%;
+    --popover-foreground: 43 60% 95%;
+
+    --primary: 174 58% 51%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 194 40% 20%;
+    --secondary-foreground: 43 60% 95%;
+
+    --muted: 194 40% 18%;
+    --muted-foreground: 43 30% 65%;
+
+    --accent: 12 88% 69%;
+    --accent-foreground: 0 0% 100%;
+
+    --destructive: 0 62.8% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 194 40% 18%;
+    --input: 194 40% 18%;
+    --ring: 174 58% 51%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}

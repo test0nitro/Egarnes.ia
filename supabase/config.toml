@@ -1,0 +1,4 @@
+project_id = "tnampwpukkyglxhcwrmc"
+
+[functions.chat-with-egarnes]
+verify_jwt = false
