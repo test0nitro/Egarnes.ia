@@ -62,18 +62,6 @@ O projeto ainda está acabdo, devido à API do Gemini ter passado por alteraçõ
 
 ---
 
-## 📚 **📌 Lições Aprendidas**
-
-Durante o desenvolvimento, várias habilidades foram aprimoradas:
-
-* 🧱 Componentização e boas práticas no React
-* ⚙️ Integração com APIs de IA
-* 🚀 Uso de ferramentas modernas (Vite, Tailwind, Shadcn)
-* 🐞 Solução de pequenos bugs e ajustes incrementais
-* 🧠 Entendimento do fluxo de prompts e respostas de IA
-
----
-
 ## 🧩 **📦 Instalação e Execução**
 
 ```bash
