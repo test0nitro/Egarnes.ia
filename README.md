@@ -105,7 +105,3 @@ Apesar de ainda estar em evolução, já demonstra:
 Se no futuro a API Gemini for atualizada, não irei estar atualizando.
 
 ---
-
-## 📸 Demonstração  
-
-![Demo da aplicação](demo.gif)
