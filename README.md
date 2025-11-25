@@ -51,7 +51,7 @@ O projeto ainda está acabdo, devido à API do Gemini ter passado por alteraçõ
 ## 🖥️ **📸 Demonstração**
 
 
-![Demo da aplicação](demo.gif)
+![Demo da aplicação](demo01.gif)
 
 
 🎥 **O que ele mostra?**
